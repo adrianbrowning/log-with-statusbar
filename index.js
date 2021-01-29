@@ -12,7 +12,7 @@ const ansi = require("ansi"),
   assert = require("assert"),
   cursor = ansi(process.stdout),
   { cyan, yellow, red, blue } = require("ansicolor"),
-  getCursorPosition = require("get-cursor-position");
+  getCursorPosition = require("@magicdawn/get-cursor-position");
 const spinners = Object.assign({}, require("./spinners.json"));
 
 var g_curPos;
